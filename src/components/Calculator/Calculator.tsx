@@ -77,12 +77,10 @@ function Calculator() {
   return (
     <section
       className="
-      w-full max-w-userCalculatorMaxWidth px-userCalculatorPaddingMobile py-8 lg:px-0
-      landscape:py-2
-      "
+      w-full max-w-userCalculatorMaxWidth px-userCalculatorPaddingMobile py-8 lg:px-0"
     >
       <Header />
-      <div className="mt-8 grid grid-rows-[88px_420px] md:grid-rows-[88px_480px] landscape:mt-2">
+      <div className="mt-8 grid grid-rows-[88px_420px] md:grid-rows-[88px_480px]">
         {/* RESULT SCREEN */}
         <div
           className="
@@ -100,7 +98,7 @@ function Calculator() {
           mt-6 grid w-full grid-cols-4 grid-rows-5 gap-userCalculatorGapMobile rounded-xl 
           bg-userKeypadBg p-userCalculatorPaddingMobile text-center transition-colors
           md:gap-userCalculatorGapDesktop md:px-userCalculatorPaddingDesktopX md:py-userCalculatorPaddingDesktopY
-          landscape:grid-cols-6"
+          "
         >
           {createButtons.map((x) => (
             <CalculatorButton
