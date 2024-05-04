@@ -17,6 +17,9 @@ module.exports = {
         userCalculatorPaddingDesktopY: "2rem"
       },
       gap: { userCalculatorGapDesktop: "1.5rem", userCalculatorGapMobile: "0.75rem" },
+      screens: {
+        "max-xs": { max: "350px" },
+      },
     },
   },
   plugins: [
